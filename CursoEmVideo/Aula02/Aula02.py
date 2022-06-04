@@ -39,3 +39,16 @@ print(f'Dam: {dam} dam');
 print(f'dm: {dm} dm');
 print(f'cm: {cm} cm');
 print(f'Mm: {mm} mm');
+
+## multiplication table
+numberToBeMultiplied = int(input('Digite um número: '));
+print(f'{numberToBeMultiplied} x 1 = {numberToBeMultiplied * 1}');
+print(f'{numberToBeMultiplied} x 2 = {numberToBeMultiplied * 2}');
+print(f'{numberToBeMultiplied} x 3 = {numberToBeMultiplied * 3}');
+print(f'{numberToBeMultiplied} x 4 = {numberToBeMultiplied * 4}');
+print(f'{numberToBeMultiplied} x 5 = {numberToBeMultiplied * 5}');
+print(f'{numberToBeMultiplied} x 6 = {numberToBeMultiplied * 6}');
+print(f'{numberToBeMultiplied} x 7 = {numberToBeMultiplied * 7}');
+print(f'{numberToBeMultiplied} x 8 = {numberToBeMultiplied * 8}');
+print(f'{numberToBeMultiplied} x 9 = {numberToBeMultiplied * 9}');
+print(f'{numberToBeMultiplied} x 10 = {numberToBeMultiplied * 10}');
