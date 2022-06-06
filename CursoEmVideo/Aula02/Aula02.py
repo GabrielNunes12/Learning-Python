@@ -52,3 +52,9 @@ print(f'{numberToBeMultiplied} x 7 = {numberToBeMultiplied * 7}');
 print(f'{numberToBeMultiplied} x 8 = {numberToBeMultiplied * 8}');
 print(f'{numberToBeMultiplied} x 9 = {numberToBeMultiplied * 9}');
 print(f'{numberToBeMultiplied} x 10 = {numberToBeMultiplied * 10}');
+
+## Money conversor
+walletReais = float(input('Quanto dinheiro você tem na carteira? R$: '));
+americanDolar = 4.77;
+result = walletReais / americanDolar;
+print(f'com {walletReais} você pode comprar {format(result, ".2f")} dolares');
