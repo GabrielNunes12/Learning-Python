@@ -58,3 +58,11 @@ walletReais = float(input('Quanto dinheiro você tem na carteira? R$: '));
 americanDolar = 4.77;
 result = walletReais / americanDolar;
 print(f'com {walletReais} você pode comprar {format(result, ".2f")} dolares');
+
+## Taxes
+productPrice = float(input('Qual é o preço do produto? '));
+tax = 0.05;
+taxes = productPrice * tax;
+payingTaxes = productPrice - taxes;
+placeHolderTax = 5;
+print(f'O produto que custava R${productPrice}, na promoção com desconto de {placeHolderTax}% vai custar R${format(payingTaxes, ".2f")}');
